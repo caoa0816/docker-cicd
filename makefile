@@ -1,7 +1,6 @@
 include ../../../make.inc
 include .env
 
-# YOUR CODE HERE
 build_docker_image:
 	docker build -t $(DOCKER_IMAGE_NAME) -f Dockerfile .
 
